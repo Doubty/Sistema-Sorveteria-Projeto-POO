@@ -1,0 +1,26 @@
+- Sistema da sorveteria OBA OBA -
+
+- Passos para fazer o programa funcionar corretamente - 
+
+1 - Importar o programa para o eclipse ou netbeans
+
+2 - Rodar o script do banco de dados no postgres com um banco de dados chamado sorveteria
+obs: cria primeiro o banco de dados e depois rodar o script disponibilizado.
+
+3 - Alterar a classe Databasepostgresql com o nome do banco de dados criado anteriormente,
+usuário e senha do postgresql da sua máquina.
+
+4 - Importar todas as bibliotecas usadas, que no caso são: O drive do banco de dados, apache.commos, jasper.reports
+que se encontram respectivamente na pasta driver e lib do projeto.
+
+5 - Instalar o jasperstudio e cria uma conexão que será usada para gerar o relatório, onde coloca-se a view de relatorio_estoque
+(scrip da view encontra-se no arquivo de script do banco de dado, ao final do mesmo).
+OBS: Se a conexão com o programa jasperstudio não for realizada, o PDF não será gerado.
+
+6 - Limpar e construir o projeto, em seguida executar.
+
+
+desenvolvido por Antônio Galvão e Fábio.
+
+OBS: logdin e senha do adminstrador é: admin
+pode ser visto no script SQL.

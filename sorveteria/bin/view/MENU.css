@@ -1,0 +1,35 @@
+.menu-button{
+	-fx-background-color:#52699d;
+	-fx-border-color:#556180;
+	-fx-border-width:0px 0px 0.5px 0px;
+}
+
+.menu-button:hover{
+	-fx-background-color:#556180;
+	-fx-border-color:#556180;
+	-fx-border-width:0px 0px 0.5px 0px;
+	
+}
+
+.menu-button:hover{
+	-fx-background-color:#52699;
+
+	-fx-border-color: #556180;
+	-fx-border-width: 0px 0px 0.5px 0px;
+	
+}
+
+.menu-item{
+	-fx-font-veight:Bold;
+	-fx-font-size: 14;
+	-fx-background-color: #52699d;
+	-fx-border-color: #52699;
+	-fx-border-width:0px 0px 1px 0px;
+}
+.menu-item:presed{
+	-fx-font-veight:Bold;
+	-fx-font-size:14;
+	-fx-background-color:white;
+	-fx-border-color:#556180;
+	-fx-border-width:0px 0px 1px 0px;
+}

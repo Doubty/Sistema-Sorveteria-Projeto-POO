@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="173.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLAnchorPaneCategoriaInserirController">
+   <children>
+      <TextField fx:id="textFieldNome" layoutX="26.0" layoutY="61.0" prefHeight="32.0" prefWidth="273.0" promptText="Digite o nome da nova categoria" style="-fx-background-color: transparent; -fx-border-color: #556180; -fx-border-width: 0px 0px 2px 0px;" />
+      <Button fx:id="buttonConfimar" layoutX="145.0" layoutY="120.0" mnemonicParsing="false" onAction="#handlButtonConfirmar" stylesheets="@Button.css" text="Confimar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonCancelar" layoutX="231.0" layoutY="120.0" mnemonicParsing="false" onAction="#handlButtonCancelar" stylesheets="@Button.css" text="Cancelar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
